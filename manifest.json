@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Trending",
+    "version": "1.0",
+    "description": "Remove the trending section from Twitter",
+    "content_scripts": [
+        {
+            "js": [
+                "main.js"
+            ],
+            "matches": [
+                "*://*.twitter.com/*"
+            ]
+        }
+    ]
+}
